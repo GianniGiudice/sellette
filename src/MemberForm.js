@@ -18,15 +18,15 @@ const MemberForm = ({ onMemberAdd }) => {
 
   return (
     <form className="form-inline" onSubmit={handleSubmit}>
-      <div className="form-group mt-3">
+      <div className="form-group w-100 mt-3">
         <input
-          className="form-control"
+          className="form-control w-100"
           value={newMember}
           type="text"
           placeholder="Jean"
           onChange={handleChange}
         />
-        <button type="submit" className="btn btn-success ml-3">
+        <button type="submit" className="btn btn-success w-100 mt-3">
           Confirmer
         </button>
       </div>

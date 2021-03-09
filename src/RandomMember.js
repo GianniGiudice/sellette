@@ -26,7 +26,7 @@ const RandomMember = ({ members }) => {
 
   return (
     <div>
-      <button onClick={getRandomMember} className="btn btn-info mt-5">
+      <button onClick={getRandomMember} className="btn btn-info mt-5 w-100">
         LANCER LA SELLETTE
       </button>
       {getText()}

@@ -35,7 +35,7 @@ const Harness = () => {
         </nav>
         <div className="container-fluid p-3 pt-5">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mt-3">
               <h1>{title}</h1>
 
               { members.length === 0 ? <div className="alert alert-warning">La liste des vide.</div> : "" }
@@ -46,7 +46,7 @@ const Harness = () => {
               </ul>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 mt-3">
               <h2>{subtitle}</h2>
 
               <MemberForm onMemberAdd={addMember} />
